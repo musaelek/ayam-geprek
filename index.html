@@ -7,7 +7,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            font-family: sans-serif;
+            font-family: 'Georgia', serif;
             color: #333;
         }
         .navbar {
@@ -76,6 +76,16 @@
         .card-text {
             font-size: 1rem;
         }
+        .btn-order {
+            background-color: #d4af37;
+            border-color: #d4af37;
+            color: white;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+        .btn-order:hover {
+            background-color: #b38e2e;
+            border-color: #b38e2e;
+        }
         .bg-light {
             background-color: #f8f9fa !important;
         }
@@ -134,7 +144,8 @@
                                     <img src="images.jpg" class="card-img-top" alt="Chicken Dish 1">
                                     <div class="card-body">
                                         <h5 class="card-title">Luxury Fried Chicken</h5>
-                                        <p class="card-text">sensasi enak dan juicy dari ayam yang dimasak dan di sajikan oleh big chef</p>
+                                        <p class="card-text">Crispy and juicy fried chicken with a touch of luxury.</p>
+                                        <a href="#" class="btn btn-order">Order Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -143,7 +154,8 @@
                                     <img src="gyat.jpg" class="card-img-top" alt="Chicken Dish 2">
                                     <div class="card-body">
                                         <h5 class="card-title">Spicy Fried Chicken</h5>
-                                        <p class="card-text">ledakan hebat di mulut anda</p>
+                                        <p class="card-text">A spicy twist to our classic fried chicken.</p>
+                                        <a href="#" class="btn btn-order">Order Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -152,76 +164,79 @@
                                     <img src="ayaam💀.jpg" class="card-img-top" alt="Chicken Dish 3">
                                     <div class="card-body">
                                         <h5 class="card-title">Honey Glazed Chicken</h5>
-                                        <p class="card-text">rasa manis dan gurih adalah kekuatan yan epic.</p>
+                                        <p class="card-text">Sweet and savory honey glazed fried chicken.</p>
+                                        <a href="#" class="btn btn-order">Order Now</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-4 menu-item">
-                                <div class="card">
-                                    <img src="amabatukam.jpg" class="card-img-top" alt="Chicken Dish 4">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Garlic Parmesan Chicken</h5>
-                                        <p class="card-text">rasa parmesan dan bawang menyatu menciptakan rasa authentic.</p>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-4 menu-item">
+                                    <div class="card">
+                                        <img src="ayaam💀.jpg" class="card-img-top" alt="Chicken Dish 4">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Garlic Parmesan Chicken</h5>
+                                            <p class="card-text">Fried chicken with a rich garlic parmesan flavor.</p>
+                                            <a href="#" class="btn btn-order">Order Now</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-4 menu-item">
-                                <div class="card">
-                                    <img src="images (1).jpg" class="card-img-top" alt="Chicken Dish 5">
-                                    <div class="card-body">
-                                        <h5 class="card-title">BBQ Fried Chicken</h5>
-                                        <p class="card-text">sensasi BBQ dan keistimewaan.</p>
+                                <div class="col-md-4 menu-item">
+                                    <div class="card">
+                                        <img src="images (1).jpg" class="card-img-top" alt="Chicken Dish 5">
+                                        <div class="card-body">
+                                            <h5 class="card-title">BBQ Fried Chicken</h5>
+                                            <p class="card-text">Fried chicken with a smoky BBQ glaze.</p>
+                                            <a href="#" class="btn btn-order">Order Now</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-4 menu-item">
-                                <div class="card">
-                                    <img src="janpinterc.o.k.jpg" class="card-img-top" alt="Chicken Dish 6">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Lemon Pepper Chicken</h5>
-                                        <p class="card-text">sensasi segar dan gurih adalah kombinasi yang melekat.</p>
+                                <div class="col-md-4 menu-item">
+                                    <div class="card">
+                                        <img src="janpinterc.o.k.jpg" class="card-img-top" alt="Chicken Dish 6">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lemon Pepper Chicken</h5>
+                                            <p class="card-text">Fried chicken with a zesty lemon pepper seasoning.</p>
+                                            <a href="#" class="btn btn-order">Order Now</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <!-- Add more carousel items as needed -->
                     </div>
-                    <!-- Add more carousel items as needed -->
-                </div>
-                <a class="carousel-control-prev" href="#menuCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#menuCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-5">Contact Us</h2>
-            <div class="row contact-info">
-                <div class="col-md-6">
-                    <h5>Address</h5>
-                    <p>123 Luxury Street, Gourmet City, Foodland</p>
-                </div>
-                <div class="col-md-6">
-                    <h5>Email</h5>
-                    <p>info@luxuryfriedchicken.com</p>
+                    <a class="carousel-control-prev" href="#menuCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#menuCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+        </section>
+    
+        <!-- Contact Section -->
+        <section id="contact" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Contact Us</h2>
+                <div class="row contact-info">
+                    <div class="col-md-6">
+                        <h5>Address</h5>
+                        <p>123 Luxury Street, Gourmet City, Foodland</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Email</h5>
+                        <p>info@luxuryfriedchicken.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+    </html>
